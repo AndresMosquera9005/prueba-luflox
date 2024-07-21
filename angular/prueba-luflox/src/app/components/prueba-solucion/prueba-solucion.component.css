@@ -1,0 +1,19 @@
+.row {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.col-4 {
+    flex: 1 0 33.33%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+p {
+    text-align: center;
+}
