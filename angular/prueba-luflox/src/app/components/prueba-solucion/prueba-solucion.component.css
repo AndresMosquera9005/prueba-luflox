@@ -1,3 +1,8 @@
+:host {
+    --color-texto: #000;
+    --color-borde: red;
+}
+
 .row {
     padding: 5px;
     display: flex;
@@ -11,7 +16,13 @@
 .col-4 {
     flex: 1 0 33.33%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-borde);
+}
+
+.col-6 {
+    flex: 1 0 33.33%;
+    padding: 10px;
+    border: 1px solid var(--color-borde);
 }
 
 p {
